@@ -9,7 +9,13 @@ Two young aspiring Software Engineers tackle Project 3 by reverse-engineering th
 3. https://earth-bnb.netlify.app/
 
 ---
- ## User Stories
+## Wireframes
+![project3wireframehomepage](https://user-images.githubusercontent.com/109487146/192004038-dc946f83-0aee-4fcc-87cf-6ada72670439.JPG)
+![project3showpage1](https://user-images.githubusercontent.com/109487146/192004055-bd46b8d2-68b6-4192-b54d-75d77ddb25c9.JPG)
+
+
+---
+## User Stories
 
 User navigates to the site and interacts by clicking on listings and being able to see pictures of the listings as well as things like price, location, number of bedrooms, beds, and baths. Users are also going to be able to edit listings to their liking and also having the ability to delete listings. Users will be able to enjoy and browse the website like it is actually Airbnb.
 
