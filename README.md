@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+## Earthbnb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Two young aspiring Software Engineers tackle Project 3 by reverse-engineering the well-known website known as Airbnb.
+---
+## Getting Started
 
-## Available Scripts
+1. https://github.com/kevinszn23/Project-3-Earthbnb-frontend & https://github.com/kevinszn23/Project-3-Earthbnb-backend
+2. https://project3-earthbnb-backend.herokuapp.com/
+3. https://earth-bnb.netlify.app/
 
-In the project directory, you can run:
+---
+ ## User Stories
 
-### `npm start`
+User navigates to the site and interacts by clicking on listings and being able to see pictures of the listings as well as things like price, location, number of bedrooms, beds, and baths. Users are also going to be able to edit listings to their liking and also having the ability to delete listings. Users will be able to enjoy and browse the website like it is actually Airbnb.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Three key features for our MVP:
+1. Search for any track due to Spotify API
+2. Creating and storing playlists
+3. Ability to Like tracks and add them to a Liked playlist
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+## Features
 
-### `npm test`
+️1. HTML
+2. CSS
+3. JavaScript
+4. MongoDB
+5. Mongoose
+6. NodeJS
+7. dotenv
+8. ejs
+9. express
+10. cors
+11. nodemon
+12. morgan
+13. React
+14. JSON
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## User Flow
 
-### `npm run build`
+An improvement to our design that we wish we could have added was User Authentication.
+Another big improvement we wanted to add was the ability to actually filter the listings by type or location.
+Another implementation that we did not get to was being able to search for listings as well.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## Database Models/ERDs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Database Models:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Listings
+2. Reviews
 
-### `npm run eject`
+ERDs:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Listing to Reviews: One to Many relationship
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+## Summary
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Kevin: I learned the most in this project so far as it really pushed me in my understanding of React, the front-end, as well as reviewing my knowledge of the back-end. I thoroughly enjoyed doing this project with Darion as we pair-programmed most of the CSS together as well. We both primarily worked on the back-end and then pair-programmed the CSS/front-end. Gave me a better understanding of React and CSS.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Darion: I learned the most this project as well. Solidified some past lessons as well as learned new concepts in React such as useState, fetching data from an API, and learned new CSS properties. This project gave me a better overall understanding of CSS.
 
-## Learn More
+---
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Kevin Ng[Github Profile](https://github.com/kevinszn23)
+2. Darion Daire[Github Profile](https://github.com/Darion-D)
