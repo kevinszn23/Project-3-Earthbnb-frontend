@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const url = process.env.MONGODB_URI || "http://localhost:4001/";
+const url = process.env.MONGODB_URI || "https://project3-earthbnb-backend.herokuapp.com/";
 
 function EditListingForm() {
   const getListing = async (fn) => {

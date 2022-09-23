@@ -2,7 +2,7 @@ import Filter from "./Filter";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const url = process.env.MONGODB_URI || "http://localhost:4001/";
+const url = process.env.MONGODB_URI || "https://project3-earthbnb-backend.herokuapp.com/";
 
 function Main() {
   const [listings, setListings] = useState([]);
