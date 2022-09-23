@@ -1,0 +1,237 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  padding-left: 40px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+.card {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    color: green;
+    font-size: 10px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card-container {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.listing-images {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.show-images-container {
+  display: flex;
+  width: 650px;
+  height: 300px;
+  gap: 10px;
+  justify-content: center;
+  align-self: center;
+}
+
+.big-image {
+  width: 305px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.small-image {
+  display: flex;
+  width: 146px;
+  height: 146px;
+  border-radius: 5px;
+}
+
+.right-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.showpage {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 100%;
+  align-self: center;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11em;
+}
+
+.host-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 11em;
+  margin-top: 10px;
+}
+
+.host-info > h4 {
+  margin-bottom: -5px;
+}
+
+.host-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.image-info {
+  display: flex;
+  justify-content: end;
+  margin-right: 13em;
+  margin-top: -4em;
+}
+
+.description-container {
+  width: 305px;
+  height: 252px;
+  margin-left: 13.5em;
+  font-size: 13px;
+  border-bottom: 1px solid grey;
+  
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reserve-card {
+  font-size: 12px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 5px 2.5px lightgrey;
+  margin-right: 12em;
+  width: 280px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.reserve-card > p {
+  margin-left: 13px;
+}
+
+#price {
+  font-weight: bold;
+  padding-right: 49px;
+}
+
+#nights-price {
+  padding-left: 122px;
+  font-weight: bold
+}
+
+#cleaning-fee-price {
+  padding-left: 155px;
+  font-weight: bold
+}
+
+#service-fee-price {
+  padding-left: 155px;
+  font-weight: bold
+}
+
+#total-before-taxes-price {
+  padding-left: 107px;
+  font-weight: bold
+}
+
+.reserve-button {
+  margin-left: 14.5px;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.login {
+  align-self: center;
+  height: 40px;
+  width: 150px;
+  margin-right: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.search-bar {
+  height: 32px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.reserve-button:hover, .listing-button, .login:hover {
+  transition: 1s;
+  background-color: blueviolet;
+}
+
+.reserve-card-container {
+  border-bottom: 1px solid grey;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.listing-button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  height:40px;
+  width: 200px;
+}
+
+.reviews-container {
+  font-size: 13px;
+  margin-left: 13.5em;
+}
+
+#earth {
+  color: red;
+}
+
+.logo {
+  color: black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
