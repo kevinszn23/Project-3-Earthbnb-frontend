@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate} from "react-router-dom";
 
-const url = process.env.MONGODB_URI || "https://project3-earthbnb-backend.herokuapp.com/";
+const url = process.env.MONGODB_URI || "https://project3-earthbnb-backend.fly.dev/";
 
 const getListing = async (fn) => {
   try {
